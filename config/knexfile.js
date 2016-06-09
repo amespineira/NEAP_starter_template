@@ -3,7 +3,7 @@ module.exports = {
     // development configuration for local PG
     development: {
         client: 'pg',
-        connection: 'postgres://localhost/NEAP_starter_template',
+        connection: 'postgres://localhost/test1',
         migrations: {
             'directory': __dirname + "/migrations",
             tableName: "users"
